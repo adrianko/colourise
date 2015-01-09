@@ -38,7 +38,7 @@ class Colourise {
         ini.put("green", "42");
         ini.put("yellow", "43");
         ini.put("blue", "44");
-        ini.put("magenta", "45");
+        ini.put("purple", "45");
         ini.put("cyan", "46");
         ini.put("grey", "47");
         background = Collections.unmodifiableMap(ini);
