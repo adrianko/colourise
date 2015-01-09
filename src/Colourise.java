@@ -9,7 +9,6 @@ class Colourise {
     private static final String reset = "0";
 
     private static final Map<String, String> foreground;
-
     static {
         Map<String, String> ini = new HashMap<String, String>();
         ini.put("black", "0;30");
@@ -32,7 +31,6 @@ class Colourise {
     }
 
     private static final Map<String, String> background;
-
     static {
         Map<String, String> ini = new HashMap<String, String>();
         ini.put("black", "40");
