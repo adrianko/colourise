@@ -48,9 +48,8 @@ class Colourise {
         if (!foreground.containsKey(fg)) {
             return s;
         }
+
         return prefix + foreground.get(fg) + suffix + s + prefix + reset + suffix;
-
-
     }
 
     public static String bg(String s, String bg) {
