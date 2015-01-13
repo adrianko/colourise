@@ -61,17 +61,7 @@ class Colourise {
     }
 
     public static String all(String s, String fg, String bg) {
-        String r = "";
-
-        if (foreground.containsKey(fg)) {
-            r += prefix + foreground.get(fg) + suffix;
-        }
-
-        if (background.containsKey(bg)) {
-            r += prefix + background.get(bg) + suffix;
-        }
-
-        return r + s + prefix + reset + suffix;
+        return fg(bg(s, bg), fg);
     }
 
     public static void main(String[] args) {
